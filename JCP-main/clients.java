@@ -1,17 +1,18 @@
-/**
- * clients
- */
-public class clients {
-    
+public class Clients {
+
+    private int id;
     private String name;
     private int phone;
     private String gmail;
-    
 
-    public clients(String name, int phone, String gmail){
+    public Clients(String name, int phone, String gmail){
         this.name = name;
         this.phone = phone;
         this.gmail = gmail;
+    }
+
+    public int getId(){
+        return id;
     }
 
     public String getName(){
