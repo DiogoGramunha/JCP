@@ -1,8 +1,8 @@
 /**
- * clientes
+ * clients
  */
 public class clients {
-
+    
     private String name;
     private int phone;
     private String gmail;
